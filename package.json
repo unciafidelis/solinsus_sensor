@@ -1,0 +1,23 @@
+{
+  "name": "solinsus_sensor",
+  "version": "1.0.0",
+  "description": "A sensor reader and report producer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest",
+    "run": "node app/sensors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unciafidelis/solinsus_sensor.git"
+  },
+  "author": "Alejandro Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unciafidelis/solinsus_sensor/issues"
+  },
+  "homepage": "https://github.com/unciafidelis/solinsus_sensor#readme",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
+}
